@@ -8,7 +8,6 @@ class Keypress {
         const inputKey = await $('#target');
         await inputKey.click();
         await browser.keys(inputValue);
-
     }
     async displayResultOfTab() {
         const result = await $('#result');
