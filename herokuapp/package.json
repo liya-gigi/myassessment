@@ -1,21 +1,13 @@
 {
-  "name": "myassessment",
+  "name": "herokuapp",
   "version": "1.0.0",
   "description": "",
-  "main": "hovers.js",
+  "main": "index.js",
   "scripts": {
     "test": "npx wdio run wdio.conf.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liya-gigi/myassessment.git"
-  },
   "author": "liya",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liya-gigi/myassessment/issues"
-  },
-  "homepage": "https://github.com/liya-gigi/myassessment#readme",
   "dependencies": {
     "@wdio/cli": "^7.16.10"
   },
