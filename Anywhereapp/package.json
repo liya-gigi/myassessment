@@ -1,0 +1,21 @@
+{
+  "name": "anywhereapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "author": "liya",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.16.11"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.16.11",
+    "@wdio/mocha-framework": "^7.16.11",
+    "@wdio/spec-reporter": "^7.16.11",
+    "chromedriver": "^96.0.0",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
