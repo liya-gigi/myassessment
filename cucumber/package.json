@@ -9,7 +9,8 @@
   "author": "liya",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^7.16.12"
+    "@wdio/cli": "^7.16.12",
+    "faker": "^5.5.3"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",

@@ -10,10 +10,11 @@ class Internetwebsite {
     await passWord.setValue(password);
     await loginBtn.click();
   }
-  async flashMessage() {
-    const message = await $("#flash");
-    expect(message).toBeExisting();
-    expect(message).toHaveTextContaining(message);
+  async flashMessage(displaymessage) {
+    const fmessage = await $("#flash");
+    await fmessage.waitForDisplayed({ timeout:8000});
+     
+    await expect(fmessage).toHaveTextContaining(displaymessage);
   }
 }
 module.exports= new Internetwebsite();
